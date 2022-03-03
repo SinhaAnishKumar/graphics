@@ -1,2 +1,2 @@
 # graphics
-This repository contain C / C++ programs for Computer Graphics.
+This repository contains C / C++ programs for Computer Graphics.
