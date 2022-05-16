@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+#include<graphics.h>
+
+main()
+{
+	initwindow(1000,1000,"The Window");
+
+	//Line
+	line(200,210,400,410);
+
+	//Circle
+	circle(300,300,20);
+	stecolor(BLUE); //Outline
+	setfillstyle(SOLID_FILL, BLUE); //Fill
+	floodfill(300,300,BLUE); //Complete
+
+	//
+
+	getch();
+}

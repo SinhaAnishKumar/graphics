@@ -1,0 +1,13 @@
+#include <graphics.h>
+#include <stdio.h>
+#include <conio.h>
+
+main()
+{
+	int gd=DETECT,gm;
+	initwindow(800,800,"Line");
+	
+	line(250,150,350,150);
+
+	getch();
+}
